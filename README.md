@@ -19,7 +19,13 @@ El sistema debe almacenar el e-mail y contraseña de los usuarios.
 
 ¿CUALES SON LOS REQUISITOS NO FUNCIONALES DE LA APP?
 
-El sistema debe registrar menos de 2 fallas/hora, con un entrenamiento base de 2 horas(Eficiencia) Métrica: Fallas/hora. El sistema debe ajustarse a las relaciones de aspecto(16:9, 17:9, 18:9) y resoluciones(480p-4K)(Portabilidad) Métrica: Relación y resolución. El sistema debe ser compatible con la última versión de Google Chrome, Mozilla Firefox, Opera. Debido a que estos son los navegadores web más comunes.(Portabilidad) El sistema debe estar disponible el 99% (712.8 horas) del tiempo mensual, el 1% restante se empleará para mantenimiento.(Disponibilidad) Métrica:Horas
+El sistema debe registrar menos de 2 fallas/hora, con un entrenamiento base de 2 horas(Eficiencia) Métrica: Fallas/hora. 
+
+El sistema debe ajustarse a las relaciones de aspecto(16:9, 17:9, 18:9) y resoluciones(480p-4K)(Portabilidad) Métrica: Relación y resolución. 
+
+El sistema debe ser compatible con la última versión de Google Chrome, Mozilla Firefox, Opera. Debido a que estos son los navegadores web más comunes.(Portabilidad) 
+
+El sistema debe estar disponible el 99% (712.8 horas) del tiempo mensual, el 1% restante se empleará para mantenimiento.(Disponibilidad) Métrica:Horas
 
 ¿QUÉ TECNOLOGÍA DE DESARROLLO UTILIZÓ?
 
