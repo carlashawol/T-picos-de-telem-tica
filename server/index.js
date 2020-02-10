@@ -16,6 +16,9 @@ app.use(cors({origin: 'http://localhost:4200'}));
 //Routes
 app.use(require('./routes/sensor'));
 
+app.use(require('./routes/index'));
+
+
 app.listen(3000, () => {
     console.log('Server on port', app.get('port'));
 });

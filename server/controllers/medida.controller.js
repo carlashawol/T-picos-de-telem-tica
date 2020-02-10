@@ -10,7 +10,8 @@ medidaCtrl.createMedida = async (req, res) => {
     const medida = new Medida({
         sensorName: req.body.sensorName,
         humedad: req.body.humedad,
-        temp: req.body.temp
+        temp: req.body.temp,
+        gps: req.body.gps
     });
     await medida.save();
     res.json({
@@ -29,7 +30,8 @@ medidaCtrl.editMedida = async(req, res) => {
     const medida = {
         sensorName: req.body.sensorName,
         humedad: req.body.humedad,
-        temp: req.body.temp
+        temp: req.body.temp,
+        gps: req.body.gps
     };
     await Medida.findByIdAndUpdate(req.params.id, {$set: medida}, {new: true});
     res.json({status: 'Medida actualizada'});

@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-const db = 'mongodb://localhost/telematicadb';
+const db = 'mongodb://localhost/db';
 
 mongoose.connect(db)
     .then(db => console.log('DB is Connected'))
