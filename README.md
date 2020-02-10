@@ -5,12 +5,17 @@
 Para este proyecto se desarrolló una aplicación IoT web que permite el registro periódico de sensores dentro de una empresa, la problemática que se intenta resolver es la gran dificultad y consumo de tiempo que presenta el registro manual de los sensores, con el propósito de mejorar la productividad de la organización, se desarrolló esta aplicación que permitirá el registro periódico automatizado.
 
 ¿CUALES SON LOS REQUISITOS FUNCIONALES DE LA APP?
-Requisitos Funcionales del Sistema
+
 El sistema debe permitir registrar los datos proporcionados por sensores de temperatura, humedad y GPS desde un dispositivo arduino.
+
 El sistema debe permitir a los usuarios visualizar los datos proporcionados por los sensores de temperatura, humedad y GPS desde un dispositivo arduino.
-El sistema debe permitir a los usuarios realizar un registro manual de los datos proporcionados por los sensores de temperatura, humedad y GPS desde un dispositivo arduino. .
+
+El sistema debe permitir a los usuarios realizar un registro manual de los datos proporcionados por los sensores de temperatura, humedad y GPS desde un dispositivo arduino. 
+
 El sistema debe permitir a los usuarios editar y eliminar los datos que considere pertinentes.
+
 El sistema debe permitir usuarios ingresar al sistema a través de un login.
+
 El sistema debe almacenar el e-mail y contraseña de los usuarios.
 
 ¿CUALES SON LOS REQUISITOS NO FUNCIONALES DE LA APP?
